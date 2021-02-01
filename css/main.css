@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  }
+  
+
+  body {
+  height: 100%;
+  background: #99a9b0;
+  font-size: 14px;
+
+}
+ 
+.container {
+  width: 900px;
+  height: auto;
+  margin: 50px auto;
+  padding: 50px;
+  border: 0px solid #dec4a0;
+  background: #fff;
+  color: #000;
+  font: 1.0em/150% font-family: 'cantarellboldoblique';
+    src: url('cantarell-boldoblique-webfont.woff2') format('woff2'),
+         url('cantarell-boldoblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+ 
+.Promo-Image{
+
+opacity: 0.8;
+margin-top: 10px;
+margin-right: 1000px;
+margin-left: 50px;
+overflow: hidden;
+position:relative;  
+width: 800px; 
+height:450px; 
+overflow:hidden: 
+color:#fff;
+font-family: font-family: 'cantarellboldoblique';
+    src: url('cantarell-boldoblique-webfont.woff2') format('woff2'),
+         url('cantarell-boldoblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;;
+ } 
+
+
+.Promo-Image h1{
+font-family: font-family: 'cantarellboldoblique';
+    src: url('cantarell-boldoblique-webfont.woff2') format('woff2'),
+         url('cantarell-boldoblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+  font-size:60px;
+  font-weight: 100px;
+  color: #fff;
+ margin: 40px 0px 40px 40px;
+ position:absolute; 
+ bottom: 50px;
+ left:30px;
+ top:150px;
+ right: 50px; 
+ transform:translateX(-120%);
+ transition:all .6s ease;
+
+} 
+
+
+.Promo-Image:before{ 
+position: absolute;
+top:500px; 
+left:20px;
+content:""; 
+width:0%; 
+height:3px; 
+background:#fff;
+transition:all .6s ease;
+} 
+.Promo-Image:after{ 
+ position: absolute; 
+ top:100px;
+ bottom: 50px; 
+ right:20px; 
+ content:""; 
+ width:0%; 
+ height:3px; 
+ background:#fff;
+  transition:all .6s ease;
+  } 
+
+.Promo-Image:hover:before{ 
+ width: 90%;
+  }
+.Promo-Image:hover:after {
+    width: 90%;
+  }
+.Promo-Image:hover h1,.Promo-Image:hover p{
+ transform:translateX(0%); 
+ transition:all .6s ease;
+  }
+.Promo-Image:hover{
+ background-size: 110% 110%;
+ transition:all .6s ease;
+
+}
+
+
+.Content{
+  width: 100%;
+  max-width: 1000px;
+  margin: 10px;
+  padding: 5px;
+  background: #fff;
+  margin-top: 20px;
+
+}
+
+.Content h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-weight: 100;
+  color: #99a9b0;
+}
+
+.Content img{
+  width: 300px;
+  height: 200px;
+}
+
+
+.Content p{
+ text-align: justify;
+ font-size: 18px;
+ font-weight: 100;
+ margin-top: 20px;
+}
+
+
+
+.Content2{
+  width: 100%;
+  max-width: 1000px;
+  margin: 10px;
+  padding: 5px;
+  background: #fff;
+  margin-top: 50px;
+
+}
+
+.Content2 h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-weight: 100;
+  color: #99a9b0;
+}
+
+.Content2 img{
+  width: 400px;
+  height: 200px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+
+.Content2 p{
+ text-align: justify;
+ font-size: 18px;
+ font-weight: 100;
+ margin-top: 20px;
+}
+
+
+.Content3{
+  width: 100%;
+  max-width: 1000px;
+  margin: 10px;
+  padding: 5px;
+  background: #fff;
+  margin-top: 50px;
+  margin-bottom: 40px;
+
+}
+
+.Content3 h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-weight: 100;
+  color: #99a9b0;
+}
+
+.Content3 img{
+  width: 400px;
+  height: 750px;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+
+.Content3 p{
+ text-align: left;
+ font-size: 18px;
+ font-weight: 100;
+ margin-top: 20px;
+}
+
+.Group{
+  display:flex;
+  flex-direction: row;
+}
+
+.Content4{
+  height: 80px;
+  padding: 2em;
+  margin: 5em;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 700px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.Content4 h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-weight: 100;
+  color: #99a9b0;
+}
+
+.Content4 img{
+  width: 300px;
+  height: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+
+.Content4 p{
+  font-size: 18px;
+ font-weight: 100;
+ margin-top: 20px;
+}
+h1
+{
+
+  font-family: 'cantarelloblique';
+    src: url('cantarell-oblique-webfont.woff2') format('woff2'),
+         url('cantarell-oblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  font-size: 40px;
+  font-weight: 500;
+  color: #fff;
+
+}
+
+h2
+{
+  font-family: 'cantarelloblique';
+    src: url('cantarell-oblique-webfont.woff2') format('woff2'),
+         url('cantarell-oblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+p
+{
+  font-family: 'cantarelloblique';
+    src: url('cantarell-oblique-webfont.woff2') format('woff2'),
+         url('cantarell-oblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  font-size: 15px;
+  font-weight: normal;
+  color: #6a6a6a;
+}
+
+p:first-letter {
+margin-top: 1px;
+margin-bottom:auto;
+margin-left: 3px;
+margin-right: 8px;
+float:left;
+color:5b6d75;
+font-size:50px;
+font-family: 'cantarelloblique';
+    src: url('cantarell-oblique-webfont.woff2') format('woff2'),
+         url('cantarell-oblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
